@@ -1,0 +1,46 @@
+.playlist-cover img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+}
+
+.playlist-info {
+    color:white;
+    padding-left: 20px;
+}
+
+.playlist-public {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "AvenirLTStd-Black";
+}
+
+.playlist-title {
+    font-size: 86px;
+    font-weight: 1000;
+
+    margin-top: 10px;
+    font-family: "AvenirLTStd-Black";
+}
+
+.playlist-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color:#B5B5B5;
+}
+
+.playlist-stats  img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+}
+
+.playlist-stats span:first-of-type {
+    font-weight: 1000;
+    font-family: "AvenirLTStd-Black";
+}

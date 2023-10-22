@@ -1,7 +1,7 @@
 import React from "react";
 
-import LeftMenu from "../../Components/LeftMenu";
-import RightMenu from "../../Components/RightMenu";
+import HomeLeftMenu from "../../Components/HomeComponents/HomeLeftMenu";
+import HomeRightMenu from "../../Components/HomeComponents/HomeRightMenu";
 
 import "./Home.css"
 
@@ -9,8 +9,8 @@ import "./Home.css"
 const Home = () => {
     return (
         <div className="home-container"> 
-        <LeftMenu />
-        <RightMenu />        
+        <HomeLeftMenu />
+        <HomeRightMenu />        
         </div>
     )
 }
