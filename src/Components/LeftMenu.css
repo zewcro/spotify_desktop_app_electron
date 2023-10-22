@@ -1,0 +1,78 @@
+
+.left {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.gray-filtered {
+  filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
+}
+
+.menu ul {
+    width: 100%;
+}
+
+.menu ul li img {
+    width: 24px;
+}
+.menu ul li {
+   padding: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.menu ul *  { 
+    cursor: pointer;
+}
+
+
+.menu ul li a span {
+    position: relative;
+    top: -5px;
+    left: 8px
+}
+
+.menu ul li:first-child() a img {
+    filter: invert(0.5) sepia(0) saturate(89) hue-rotate(75deg) !important;
+}
+.menu li:first-child span {
+    color:white !important;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    padding-left: 0 !important;
+}
+
+.playlists {
+    font-weight: 400 !important;
+}
+
+.playlists ul li a span {
+    left: 0px;
+}
+
+
+
